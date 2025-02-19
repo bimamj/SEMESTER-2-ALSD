@@ -14,5 +14,7 @@ public class StudentMain {
             student2.updateGPA(3.3);
             student2.print();
         
+        Student19 student3 = new Student19("244107020123", "Bima J", "TI-1I", 3.7);
+            student3.print();
     }
 }
