@@ -30,3 +30,12 @@
 4.  ![Screenshot](IMG/image2.png)
 5. The evaluate() method evaluates the student performance by evaluating the value of the students GPA by the parameter given. It returns a String value of either excellent, good, fair and poor
 
+# 2.2 Experiment 2
+
+### 2.2.2 Verification Experiments Result
+
+![Screenshot](IMG/image3.png)
+
+### 2.2.3 Question Answers
+
+
