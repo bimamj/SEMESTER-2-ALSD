@@ -56,6 +56,15 @@
 ![Screenshot](IMG/image7.png)
 ![Screenshot](IMG/image8.png)
 
+# ASSIGNMENT 1
+
+The implementation is in **Student19.java** & **StudentMain.java**, and this is a screenshot for the result:
+
+![Screenshot](IMG/image9.png)
+
+**Explanation:**
+1. On the Student19.java there's object's attributes, and methods. There are also default constructor and parameterized constructor. Methods to assign the object attributesm methods to print, methods to change credit, and hours.
+2. On the CourseMain.java it's the main function where object is instantiated and the attributes is assigned by calling the constructor.
 
 
 
