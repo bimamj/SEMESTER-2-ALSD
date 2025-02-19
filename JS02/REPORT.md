@@ -37,5 +37,9 @@
 ![Screenshot](IMG/image3.png)
 
 ### 2.2.3 Question Answers
+1. ![Screenshot](IMG/image4.png)
+2. To access an object attributes we use the don notation (.) followed by variable
+3. Because the first print() is executed before the changeClass() and updateGPA() ran. So the first print() output is before and the second print() is after the two methods are executed
+
 
 
