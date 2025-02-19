@@ -1,4 +1,4 @@
-public class Mahasiswa19 {
+public class Student19 {
     String studentID;
     String name;
     String className;
@@ -16,7 +16,7 @@ public class Mahasiswa19 {
     }
 
     void updateGPA(double newGPA) {
-        if (gpa > 0.0 || gpa < 4.0) {
+        if (newGPA >= 0.0 && newGPA <= 4.0) {
             gpa = newGPA;
         } else {
             System.out.println("Invalid GPA. Must be between 0.0 and 4.0");
