@@ -9,6 +9,5 @@ public class StudentMain {
         student1.changeClass("TI-2I");
         student1.updateGPA(3.9);
         student1.print();
-        System.out.println();
     }
 }
