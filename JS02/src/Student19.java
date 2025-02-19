@@ -3,7 +3,15 @@ public class Student19 {
     String name;
     String className;
     double gpa;
+public Student19() {
 
+}
+public Student19(String id, String name, String cls, double gpa) {
+    studentID =id;
+    this.name = name;
+    className = cls;
+    this.gpa = gpa;
+}
     void print() {
         System.out.println("Student ID  : " + studentID);
         System.out.println("Name        : " + name);
