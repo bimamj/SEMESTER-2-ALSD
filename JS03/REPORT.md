@@ -20,3 +20,15 @@
     - The second line assign the ```Rectangle``` in index 1 with the length attribute of 80
     - The third line assign the ```Rectangle``` in index 1 with the width attribute of 80
 5. So that we can avoid mixing data representation and logi, we can also reuse the ```Rectangle()``` class in other part of our program if we separate it with ```Array OfObjects``` class. 
+
+# 1.3 Experiment 2 Input data into Array of Objects using Loops
+
+### 1.3.2 Result
+![Screenshot](img/image2.png)
+
+### 1.3.3 Questions Answers
+1. Yes, array of object can be implemented on 2D array
+2. For example we can create a 2D array of student class where the row is for representing different student and the column represents different subject of students
+3. Because the object itself has not been intantiated, so the array contains null value 
+4. ![Screenshot](img/image4.png) ![Screenshot](img/image3.png)
+5. Yes we can, but this will result in the object to be reassigned a different value, depending whic is written first ```ppArray[0]``` or ```ppArray[i]```, it will result in the old value replace by the new value and is a waste of data
