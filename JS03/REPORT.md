@@ -32,3 +32,8 @@
 3. Because the object itself has not been intantiated, so the array contains null value 
 4. ![Screenshot](img/image4.png) ![Screenshot](img/image3.png)
 5. Yes we can, but this will result in the object to be reassigned a different value, depending whic is written first ```ppArray[0]``` or ```ppArray[i]```, it will result in the old value replace by the new value and is a waste of data
+
+# 1.4 Mathematical operation in array of object’s attribute
+
+### 1.4.2 Result
+![Screenshot](img/image5.png)
