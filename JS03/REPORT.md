@@ -44,3 +44,19 @@
 3. ![Screenshot](img/image8.png)
 4. ![Screenshot](img/image9.png)
 5. ![Screenshot](img/image10.png)
+
+# ASSIGNMENT
+The implementation can be seen on ```Lecturer19.java```, ```LecturerData19.java```, and ```LecturerDemo19.java``` file.
+### RESULT
+![Screenshot](img/image11.png)
+
+![Screenshot](img/image12.png)
+
+![Screenshot](img/image13.png)
+
+![Screenshot](img/image14.png)
+
+![Screenshot](img/image15.png)
+
+![Screenshot](img/image16.png)
+
