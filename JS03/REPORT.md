@@ -37,3 +37,10 @@
 
 ### 1.4.2 Result
 ![Screenshot](img/image5.png)
+
+### 1.4.3 Questions Answer
+1. Yes, in one class we can have more than one constructor, as long as each has different arguments. It also allows us to be more flexible when creating objects
+2. ![Screenshot](img/image6.png) ![Screenshot](img/image7.png)
+3. ![Screenshot](img/image8.png)
+4. ![Screenshot](img/image9.png)
+5. ![Screenshot](img/image10.png)
