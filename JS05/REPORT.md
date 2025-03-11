@@ -42,7 +42,7 @@ int factorialBF(int n) {
 
 # 5.3 Experiment 2 Calculating Exponentiation Using Brute Force and Divide and Conquer Algorithms
 
-### 5.3.3 Result
+### 5.3.2 Result
 ![Screenshot](img/image2.png)
 
 ### 5.3.3 Questions Answer
@@ -50,3 +50,16 @@ int factorialBF(int n) {
 2. Yes, the combine stage exist it in this block of code ![Screenshot](img/image3.png)
 3. Yes, the method could be implemented without parameter, because `baseNumber` and `exponent` is already stored as class variable, so we can use this instead. 
 4. `powerBF()` use iteration, it use loop to multiply `baseNumber` by itself `exponent` number of times. While,`powerDC()`it uses recursion to split the exponentiation into smaller problems. Reduces the problem size by half each time
+
+# 5.4 Experiment 3 Calculating Array Sum Using Brute Force and Divide and Conquer Algorithms
+
+### 5.4.2 Result
+![Screenshot](img/image4.png)
+
+### 5.4.3 Questions Result
+1. `mid` variable is needed so that it can divide the problem into 2 smaller subproblems. It helps by dividing the array into 2 halves, left subarray and right sub
+2. `totalDC(arr, l, mid)` Recursively computes the sum of the left half of the array (from index `l` to `mid`).
+`totalDC(arr, mid+1, r)` Recursively computes the sum of the right half of the array (from index mid+1 to r).
+3. It's necessary since it's the combine stage, and returns the total sum for the current segment of the array
+4. This is the base case ![Screenshot](img/image5.png). When the left index `l` is equal to the right index `r`
+5. Divide the array into two halves, left and right. Each halves have a recursion function to sum the total. Finally it will returned the combined value of left half and right half. 

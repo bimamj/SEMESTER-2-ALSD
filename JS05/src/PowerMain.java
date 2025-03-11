@@ -16,8 +16,7 @@ public class PowerMain {
 
        System.out.println("POWER RESULT USING BRUTEFORCE: ");
        for (Power19 p : pow){
-        System.out.println(p.baseNumber+"^"+p.exponent+": "+p.powerBF(p.baseNumber, p.exponent));
-       }
+        System.out.println(p.baseNumber+"^"+p.exponent+": "+p.powerBF());}
        System.out.println("POWER RESULT USING DIVIDE AND CONQUER: ");
        for (Power19 p : pow){
         System.out.println(p.baseNumber+"^"+p.exponent+": "+p.powerDC(p.baseNumber, p.exponent));
