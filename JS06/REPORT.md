@@ -26,10 +26,10 @@
 
 ## 6.3 Experiment 2 - Sorting Student Data Based on GPA (Bubble Sort)
 
-### 6.3.2 Result
+### 6.3.3 Result
 ![Screenshot](img/image4.png)
 
-### 6.3.3 Questions Answer
+### 6.3.4 Questions Answer
 1. A. We compare adjacent elements and swap them if necessary. After each full pass through the list, the largest unsorted element "bubbles up" to its correct position  
 Since we need to compare pairs of elements, we stop one step before the last (`idx - 1`)  
 B. In each pass (`i`), the largest remaining unsorted element moves to its correct position at the end  
