@@ -24,3 +24,19 @@
 3. The condition means, `j` is bigger than 0, to prevent the first index to be checked again, and `data[j] > key` is to make sure that `j` is bigger than `key` which checked the left index is bigger than the right
 4. It is to change or 'swap' the value of right and left index that is being compared.
 
+## 6.3 Experiment 2 - Sorting Student Data Based on GPA (Bubble Sort)
+
+### 6.3.2 Result
+![Screenshot](img/image4.png)
+
+### 6.3.3 Questions Answer
+1. A. We compare adjacent elements and swap them if necessary. After each full pass through the list, the largest unsorted element "bubbles up" to its correct position  
+Since we need to compare pairs of elements, we stop one step before the last (`idx - 1`)  
+B. In each pass (`i`), the largest remaining unsorted element moves to its correct position at the end  
+Once an element is placed correctly, we no longer need to check it in future passes  
+This means we reduce the number of comparisons by `i` in each subsequent pass, so we loop until `idx - i - 1`  
+C. The outer loop (`i`) runs from `0` to` idx - 1 ` 
+Since `idx = 50`, the loop executes 49 times (from `i = 0` to `i = 48`)
+2. ![Screenshot](img/image5.png)  
+![Screenshot](img/image6.png)  
+![Screenshot](img/image7.png)
