@@ -63,3 +63,7 @@ int factorialBF(int n) {
 3. It's necessary since it's the combine stage, and returns the total sum for the current segment of the array
 4. This is the base case ![Screenshot](img/image5.png). When the left index `l` is equal to the right index `r`
 5. Divide the array into two halves, left and right. Each halves have a recursion function to sum the total. Finally it will returned the combined value of left half and right half. 
+
+# ASSIGNMENT
+The implementation can be seen on `Student19.java` and `StudentMain.java` on the source code file
+![Screenshot](img/image6.png)
