@@ -24,8 +24,7 @@
 3. The condition means, `j` is bigger than 0, to prevent the first index to be checked again, and `data[j] > key` is to make sure that `j` is bigger than `key` which checked the left index is bigger than the right
 4. It is to change or 'swap' the value of right and left index that is being compared.
 
-## 6.3 Experiment 2 - Sorting Student Data Based on GPA (Bubble Sort)
-
+## 6.3 Experiment 2 - Sorting Using an Array of Objects
 ### 6.3.3 Result
 ![Screenshot](img/image4.png)
 
@@ -40,3 +39,16 @@ Since `idx = 50`, the loop executes 49 times (from `i = 0` to `i = 48`)
 2. ![Screenshot](img/image5.png)  
 ![Screenshot](img/image6.png)  
 ![Screenshot](img/image7.png)
+
+### 6.3.8 Result
+![Screenshot](img/image8.png)
+
+### 6.3.9 Questions Answer
+1. The code snipet is used to find the lowest GPA score in the unsorted part of the array. Once the smallest element is found, it is swapped with the element at index `i`. The sorted part grows, and the unsorted part shrinks.
+
+### 6.3.12 Result
+![Screenshot](img/image9.png)
+
+### 6.3.13
+![Screenshot](img/image10.png)
+![Screenshot](img/image11.png)
