@@ -54,4 +54,4 @@ Since `idx = 50`, the loop executes 49 times (from `i = 0` to `i = 48`)
 
 # ASSIGNMENT
 The implementation can be seen on `Lecturer19.java`, `LecturerData.java`, and `LecturerMain.java`. This is the result  
-[Screenshot](img/image12.png)
+![Screenshot](img/image12.png)
