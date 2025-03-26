@@ -30,3 +30,8 @@
 2. The program which runs the conquer process is, if the element is found (![Screenshot](img/image6.png)), if not found use recursive call (![Screenshot](img/image7.png)), or `return -1` if not found at all
 3. If the data is not sorted, it will return an incorrect answer, because in binary search it is assumed that the aray of data is already sorted in an ascending order. And if it is sorted in a descending order, it will not work correctly. If we want to sort it from descending order we can modify the code like this: ![Screenshot](img/image8.png)
 4. ![Screenshot](img/image9.png)  ![Screenshot](img/image10.png)
+
+## 7.4 Experiment 3 - Review Divide & Conquer
+
+### 7.4.2 Result
+![Screenshot](img/image11.png)
