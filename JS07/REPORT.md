@@ -35,3 +35,8 @@
 
 ### 7.4.2 Result
 ![Screenshot](img/image11.png)
+
+# ASSIGNMENT
+The implementation can be seen on `Lecturer19.java`, `LecturerData.java`, and `LecturerDemo.java`  
+
+![Screenshot](img/image12.png)
