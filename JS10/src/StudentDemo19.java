@@ -10,6 +10,7 @@ public class StudentDemo19 {
             System.out.println("2. Assignment Grading");
             System.out.println("3. Display Top Assignment");
             System.out.println("4. Display Assigment List");
+            System.out.println("5. Display first submited assignment");
             System.out.print("Choice: ");
             choice = scan.nextInt();
             switch (choice) {
@@ -33,6 +34,8 @@ public class StudentDemo19 {
                         int grade = scan.nextInt();
                         graded.grading(grade);
                         System.out.printf("Assignment grade of %s is %d\n", graded.name, grade);
+                        String binary = stack.convertToBinary(grade);
+                        System.out.printf("Assignment grade in binary is %s\n", binary);
                     }
                     break;
                 case 3:
@@ -46,10 +49,16 @@ public class StudentDemo19 {
                 System.out.println("Name\tNIM\tClass");
                 stack.print();
                     break;
+                case 5:
+                Student19 first = stack.bottom();
+                if (first != null) {
+                    System.out.println("The first Assignment submitted by " + first.name);
+                }
+                break;
                 default:
                 System.out.println("Invalid choice");
                     break;
             }
-        } while (choice >=1 && choice <=4);
+        } while (choice >=1 && choice <=5);
     }
 }

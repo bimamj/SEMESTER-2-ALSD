@@ -1,3 +1,5 @@
+import java.lang.classfile.instruction.ConvertInstruction;
+
 public class StudentAssignmentStack19 {
     Student19[] stack;
     int top, size;
@@ -64,6 +66,20 @@ public class StudentAssignmentStack19 {
 
     int countAssignment() {
         return top +1;
+    }
+
+    String convertToBinary(int grade) {
+        ConversionStack stack = new ConversionStack();
+        while (grade > 0) {
+            int mod = grade % 2;
+            stack.push(mod);
+            grade = grade / 2;
+        }
+        String binary = "";
+        while (!stack.isEmpty()) {
+            binary += stack.pop();
+        }
+        return binary;
     }
 
     void print() {

@@ -22,4 +22,10 @@
 6. We add a new method called `countAssignment`. We can count the number of assignment submited by the number of top. But the top starts at 0, so we return top + 1.
 7. Stack is quite simple logic, it is very useful to process the last item first. The real world feature would be like the udno feature in computer program.
 ## 2.2 Experiment 2 Convert Assignment Grade to Binary
+### 2.2.2 Result Verification
+![Screenshot](img/img5.png)
+
+### 2.2.3 Quetions Answer
+1. `ConvertToBinary()` uses a stack to reverse the remainders of division by 2, so the binary digits are printed in the correct order.
+2. The program will still work just fine. Because as long as it is not 0 the program will still be fine. But it is safer to use  > 0, incase pf negative grades being input in
 
