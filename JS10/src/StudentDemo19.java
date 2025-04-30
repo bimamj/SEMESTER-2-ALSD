@@ -1,0 +1,55 @@
+import java.util.Scanner;
+public class StudentDemo19 {
+    public static void main(String[] args) {
+        StudentAssignmentStack19 stack = new StudentAssignmentStack19(5);
+        Scanner scan = new Scanner(System.in);
+        int choice;
+        do {
+            System.out.println("\nMenu");
+            System.out.println("1. Assignment Submision");
+            System.out.println("2. Assignment Grading");
+            System.out.println("3. Display Top Assignment");
+            System.out.println("4. Display Assigment List");
+            System.out.print("Choice: ");
+            choice = scan.nextInt();
+            switch (choice) {
+                case 1:
+                    scan.nextLine();
+                    System.out.print("Name: ");
+                    String name = scan.nextLine();
+                    System.out.print("NIM: ");
+                    String nim = scan.nextLine();
+                    System.out.print("Class: ");
+                    String kelas = scan.nextLine();
+                    Student19 std = new Student19(nim, name,kelas);
+                    stack.push(std);
+                    System.out.printf("Assignment %s submited succesfully\n", std.name);
+                    break;
+                case 2:
+                    Student19 graded = stack.pop();
+                    if (graded != null) {
+                        System.out.println("Grading assignment from " + graded.name);
+                        System.out.print("Insert grade (0-100): ");
+                        int grade = scan.nextInt();
+                        graded.grading(grade);
+                        System.out.printf("Assignment grade of %s is %d\n", graded.name, grade);
+                    }
+                    break;
+                case 3:
+                Student19 see = stack.peek();
+                if (see !=null){
+                    System.out.println("The last Assignment submited by " + see.name);
+                }
+                    break;
+                case 4:
+                System.out.println("List of all assignment");
+                System.out.println("Name\tNIM\tClass");
+                stack.print();
+                    break;
+                default:
+                System.out.println("Invalid choice");
+                    break;
+            }
+        } while (choice >=1 && choice <=4);
+    }
+}
