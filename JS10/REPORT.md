@@ -29,3 +29,10 @@
 1. `ConvertToBinary()` uses a stack to reverse the remainders of division by 2, so the binary digits are printed in the correct order.
 2. The program will still work just fine. Because as long as it is not 0 the program will still be fine. But it is safer to use  > 0, incase pf negative grades being input in
 
+## ASSIGNMENT
+The Implementation can be seen on `ExcuseLetter19.java`, `ExcuseLetterStack19.java`, and `ExcuseMain.java`
+Result: 
+![Screenshot](img/img6.png)
+![Screenshot](img/img7.png)
+![Screenshot](img/img8.png)
+
