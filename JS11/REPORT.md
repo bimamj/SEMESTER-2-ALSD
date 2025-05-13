@@ -35,3 +35,9 @@
 3. In this experiment we assume that the front starts at index 0 and the first elemet will always be accessed from index 0
 4. ![Screenshot](image/image10.png)
 
+## ASSIGNMENT
+The implementationcan be seen on `Student19.java`, `KRSQueue.java`, and `KRSQueueMain.java`. And there are two class diagram, for `Student19.java` and `KRSQueue.java`
+![Screenshot](image/image11.png)
+![Screenshot](image/image12.png)
+![Screenshot](image/image13.png)
+![Screenshot](image/image14.png)
