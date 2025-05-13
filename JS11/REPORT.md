@@ -22,3 +22,16 @@
 6. ![Screenshot](image/image4.png) When the condition for `isFull()` returns true, the program will print that the queue is full
 7. ![Screenshot](image/image5.png)
 
+## 2.2 Experiment 2 Academic Service Queue
+### 2.2.2 Output Verification
+![Screenshot](image/image6.png)
+![Screenshot](image/image7.png)
+![Screenshot](image/image8.png)
+![Screenshot](image/image9.png)
+
+### 2.2.3 Questions Answers
+1. In `Queue` it manages a primitive data type of integer while `StudentQueue` manages `Student` object. This is important, because `Student` object could store information like name, Id etc, instead of simple number
+2. The data stored in experiment 2 is stored in the object `Student` it will access the attributes and when dequeing it will return the object so the information is shown in more detail
+3. In this experiment we assume that the front starts at index 0 and the first elemet will always be accessed from index 0
+4. ![Screenshot](image/image10.png)
+
