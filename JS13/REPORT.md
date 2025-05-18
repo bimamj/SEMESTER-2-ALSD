@@ -17,3 +17,11 @@
 3. ![Screenshot](image/image2.png)  
 ![Screenshot](image/image3.png) 
 4. If we remove the tail attribute, we will need to traverse to the end everytime when we try to add new data on `addLast()`
+
+## 2.2 Experiment 2 Accessing Element in Single Linked List
+### 2.2.2 Output verification
+![Screenshot](image/image4.png)
+
+### 2.2.3 Questions Answer
+1. The break is used to exit the loop as soon as the target node is found and removed
+2. `temp.next = temp.next.next;` is used to remove the node after `temp` by skipping it, then the `if` command will check, if `temp.next == null` it will assign `tail` with the value index of `temp`
