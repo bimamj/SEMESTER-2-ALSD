@@ -25,3 +25,11 @@
 ### 2.2.3 Questions Answer
 1. The break is used to exit the loop as soon as the target node is found and removed
 2. `temp.next = temp.next.next;` is used to remove the node after `temp` by skipping it, then the `if` command will check, if `temp.next == null` it will assign `tail` with the value index of `temp`
+
+## ASSIGNMENT
+The implementation can be seen on the source file `Student19.java`, `Node19.java`, `LinkedQueue.java`, and `MainLinkQueue.java`.  
+![Screenshot](image/image5.png)  
+![Screenshot](image/image6.png)  
+![Screenshot](image/image7.png)  
+![Screenshot](image/image8.png)  
+![Screenshot](image/image9.png)
