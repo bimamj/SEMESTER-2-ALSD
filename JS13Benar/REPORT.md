@@ -7,7 +7,7 @@
 
 # Jobsheet XIII Double Linked Lists
 
-## 12.1 Experiment 1
+## 12.2 Experiment 1
 ### 12.2.1 Activity 1
 ### 12.2.2 Output Verification
 ![Screenshot](image/image1.png)
@@ -21,5 +21,11 @@
 6. This sets the previous pointer of the node after the insertion point to point back to the new node.
 7. 
 Traversal occurs in the `insertAfter()` and `print()` methods. `temp = temp.next;` moves the pointer to the next node in the list.
-8. It handles the special case when the node you're inserting after is the last node (tail) in the list.
+8. It handles the special case when the node you're inserting after is the last node (tail) in the list. If we remove it, there will be an error, because the temp will have value of null, and the `prev` of null is nullpointerexception error
 9. Checks whether the current node’s nim matches the key. Used to find the node then the new node should be inserted.
+10. Because in `insertAfter()` on the end of the else statement there should be a `break` so that it will immediately exit the loop
+
+## 12.3 Experiment 2
+### 12.3.1 Activity 2
+### 12.3.2 Output Verification
+![Screenshot](image/image2.png)
