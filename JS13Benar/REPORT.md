@@ -29,3 +29,13 @@ Traversal occurs in the `insertAfter()` and `print()` methods. `temp = temp.next
 ### 12.3.1 Activity 2
 ### 12.3.2 Output Verification
 ![Screenshot](image/image2.png)
+
+### 12.3.3 Question Answers
+1. `head = head.next;` moves the head ponter to the second node in the list, and `head.prev = null;` removes the previous connection from the new head to the old head
+2. This condition handles the case when the list has only one node. If you don't include that, you could end up with references pointing to deleted memory. It ensures the list becomes truly empty (null).
+3. If there is no `tail`, we need to use traverse from `head` to the second to last node
+4. It prevents the code to access a `null` node and avoid crashing
+5. A removal of a node in the begining first chet if the `index == 0` if yes then calls `removeFirst()` if the node is at the last `temp == tail` it will call `removeLast()` toremove `tail`
+6. it uses this, `temp.prev.next = temp.next; temp.next.prev = temp.prev;`. This makes the `temp` previous node `.next` skip over `temp`. and makes the next node `.prev` skip over temp
+7. ![Screenshot](image/image3.png)
+
