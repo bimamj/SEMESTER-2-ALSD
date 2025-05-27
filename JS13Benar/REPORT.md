@@ -39,3 +39,10 @@ Traversal occurs in the `insertAfter()` and `print()` methods. `temp = temp.next
 6. it uses this, `temp.prev.next = temp.next; temp.next.prev = temp.prev;`. This makes the `temp` previous node `.next` skip over `temp`. and makes the next node `.prev` skip over temp
 7. ![Screenshot](image/image3.png)
 
+## ASSIGNMENT
+The implementation for the assignment can be seen on `Student.java`, `Node.java`, `DoubleLinkedLists.java`, and `DoubleLinkedListsMain.java`. I have set the data in main to this  
+![Screenshot](image/image4.png)  
+
+### and this is the result after running the program
+
+![Screenshot](image/image5.png)
