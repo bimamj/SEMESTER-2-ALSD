@@ -62,7 +62,7 @@ public class GasStQueue {
             return;
         }
 
-        System.out.println("Vehicle Queue");
+        System.out.println("Vehicle Queue: ");
         Node temp = front;
         while (temp != null) {
             temp.vehicle.print();
