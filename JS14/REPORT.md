@@ -33,3 +33,14 @@ And connect successor to parent of current.
 `getSuccesor()` assist by finding the smallest node in the right subtree (in-order successor).
 Replaces the deleted node with this successor.
 Adjusts pointers to maintain the BST order.
+
+## 14.3 Experiment 3
+### 14.3.1 Results
+![Screenshot](image/image2.png)
+### 14.3.2 Question Answers
+1. `data` is an array pf `Student19` objects. `idxLast` keeps track of the last filled index in the 
+2. It initializes the binary tree array with a set of student data and updates the index of the last element
+3. To perform an in order traversal of the binary tree. Visits left subtree, then root, and then right subtree. Then prints the students in sorted (in-order) sequence if the tree is properly structured.
+4. The left child is 5, from 2 * 2 + 1 = 5. While the right child is 6, from 2 * 2 + 2 = 6
+5. It indicates that the last index of valid student data in the array is 6 which means the array has 7 elements, from index 0 to 6
+6. Because in an array binary tree is mapped like this. For a node at index `i`, left child is at index `2*i + 1` right child is at index `2*i + 2`
