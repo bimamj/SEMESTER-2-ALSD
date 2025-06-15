@@ -150,4 +150,64 @@ public class BinaryTree19 {
 
         }
     }
+
+    public void addRekursif(Student19 data) {
+        root = addRekursif(root, data);
+    }
+
+    private Node19 addRekursif(Node19 current, Student19 data) {
+        if (current == null) {
+            return new Node19(data);
+        }
+        if (data.ipk < current.data.ipk) {
+            current.left = addRekursif(current.left, data);
+        } else if (data.ipk > current.data.ipk) {
+            current.right = addRekursif(current.right, data);
+        }
+        return current;
+    }
+
+    public void getMinIPK() {
+        if (isEmpty()) {
+            System.out.println("Tree is empty!");
+            return;
+        }
+        Node19 current = root;
+        while (current.left != null) {
+            current = current.left;
+        }
+        System.out.println("Student with Minimum IPK:");
+        current.data.print();
+    }
+
+    public void getMaxIPK() {
+        if (isEmpty()) {
+            System.out.println("Tree is empty!");
+            return;
+        }
+        Node19 current = root;
+        while (current.right != null) {
+            current = current.right;
+        }
+        System.out.println("Student with Maximum IPK:");
+        current.data.print();
+    }
+
+    public void displayStudentsWithIPKAbove(double threshold) {
+        System.out.println("Students with IPK above " + threshold + ":");
+        displayAbove(root, threshold);
+    }
+
+    private void displayAbove(Node19 node, double threshold) {
+        if (node != null) {
+            if (node.data.ipk > threshold) {
+                node.data.print();
+            }
+            displayAbove(node.left, threshold);
+            displayAbove(node.right, threshold);
+        }
+    }
+
+    
+
 }

@@ -9,9 +9,13 @@ public class BinaryTreeArrayMain19 {
         Student19 m6 = new Student19("244107020226", "Bima", "TI-1I", 3.37);
         Student19 m7 = new Student19("244107020181", "Eiyu", "TI-1I", 3.46);
         Student19[] data = { m1, m2, m3, m4, m5, m6, m7 };
-       
+
         bta.populateData(data, data.length - 1);
         System.out.println("In-order traversal:");
         bta.traverseInOrder(0);
+
+        System.out.println("Pre-order traversal:");
+        bta.traversePreOrder();
+
     }
 }

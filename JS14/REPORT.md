@@ -44,3 +44,21 @@ Adjusts pointers to maintain the BST order.
 4. The left child is 5, from 2 * 2 + 1 = 5. While the right child is 6, from 2 * 2 + 2 = 6
 5. It indicates that the last index of valid student data in the array is 6 which means the array has 7 elements, from index 0 to 6
 6. Because in an array binary tree is mapped like this. For a node at index `i`, left child is at index `2*i + 1` right child is at index `2*i + 2`
+
+## ASSIGNMENT
+The implementation can be seen on `BinaryTree19.java`, `BinaryTreeArray19.java`, `BinaryTreeArrayMain19.java`, and `BinaryTreeMain19.java`.
+### `addRekursif()`
+![Screenshot](image/image3.png)
+### `getMinIPK()` and `getMaxIPK()`
+![Screenshot](image/image4.png)
+### `displayStudentsWithIPKAbove(double threshold)`
+![Screenshot](image/image5.png)
+### `add(Student data)`
+![Screenshot](image/image6.png)
+### `traversePreOrder()`
+![Screenshot](image/image7.png)
+### `BinaryTreeMain19.java` and `BinaryTreeArrayMain19.java`
+![Screenshot](image/image8.png)
+![Screenshot](image/image9.png)
+### Results
+
